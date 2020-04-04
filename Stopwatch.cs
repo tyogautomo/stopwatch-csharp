@@ -26,7 +26,7 @@ namespace ExerciseOne {
         StopTime = DateTime.Now;
         var result = StopTime - StartTime;
         TotalTime += result;
-        Console.WriteLine($"STOPED. Total duration: {TotalTime}");
+        Console.WriteLine($"STOPED. Total duration: >>>>>>> {TotalTime} <<<<<<<");
       } else {
         throw new InvalidOperationException("Please start the stopwatch first.");
       }
